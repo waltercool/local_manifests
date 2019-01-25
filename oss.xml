@@ -11,7 +11,8 @@
 <project path="vendor/oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/transpower" name="transpower" groups="device" remote="sony" revision="master" />
 <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="master" />
-<project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="sony" revision="master">
+<remote name="waltercool" fetch="https://github.com/waltercool/" />
+<project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="waltercool" revision="master">
     <linkfile src="repo_update.sh" dest="repo_update.sh" />
 </project>
 </manifest>
